@@ -26,7 +26,9 @@ export const WHATSAPP_NUMBER = "5566999784828";
 export const getWhatsappLink = (text: string) =>
   `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
 
-export const blogArticles: BlogArticle[] = [
+import { newBlogArticles } from "./newBlogArticles";
+
+const originalArticles: BlogArticle[] = [
   {
     slug: "dependencia-emocional-como-reconhecer-e-romper-o-ciclo",
     title: "Dependência Emocional: Como Reconhecer e Romper o Ciclo Invisível",
