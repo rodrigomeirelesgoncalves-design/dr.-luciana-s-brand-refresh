@@ -1352,3 +1352,5 @@ Se você está no início dessa jornada, quero que saiba: o vazio que você sent
 E quando ela emergir — e ela vai emergir — você olhará para trás e entenderá que a mulher que o narcisista tentou destruir era, na verdade, indestrutível. Ele pode ter apagado temporariamente sua luz. Mas luzes que foram apagadas podem ser reacendidas. E frequentemente, brilham mais forte do que nunca.`
   }
 ];
+
+export const blogArticles: BlogArticle[] = [...originalArticles, ...newBlogArticles];
