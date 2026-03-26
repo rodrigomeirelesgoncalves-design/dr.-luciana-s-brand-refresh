@@ -1353,4 +1353,6 @@ E quando ela emergir — e ela vai emergir — você olhará para trás e entend
   }
 ];
 
-export const blogArticles: BlogArticle[] = [...originalArticles, ...newBlogArticles];
+import { extraBlogArticles } from "./extraBlogArticles";
+
+export const blogArticles: BlogArticle[] = [...originalArticles, ...newBlogArticles, ...extraBlogArticles];
