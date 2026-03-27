@@ -76,6 +76,18 @@ import vit2 from "@/assets/blog/vitimismo-narcisista-2.jpg";
 import diz1 from "@/assets/blog/dizer-nao-1.jpg";
 import diz2 from "@/assets/blog/dizer-nao-2.jpg";
 
+// Additional articles images
+import amiz1 from "@/assets/blog/amizades-toxicas-1.jpg";
+import amiz2 from "@/assets/blog/amizades-toxicas-2.jpg";
+import culp1 from "@/assets/blog/culpa-cronica-1.jpg";
+import culp2 from "@/assets/blog/culpa-cronica-2.jpg";
+import com1 from "@/assets/blog/comunicacao-narcisista-1.jpg";
+import com2 from "@/assets/blog/comunicacao-narcisista-2.jpg";
+import fam1 from "@/assets/blog/narcisismo-familiar-1.jpg";
+import fam2 from "@/assets/blog/narcisismo-familiar-2.jpg";
+import sab1 from "@/assets/blog/autossabotagem-1.jpg";
+import sab2 from "@/assets/blog/autossabotagem-2.jpg";
+
 const imageMap: Record<string, string> = {
   "dependencia-emocional-1": dep1,
   "dependencia-emocional-2": dep2,
