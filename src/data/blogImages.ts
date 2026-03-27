@@ -151,6 +151,17 @@ const imageMap: Record<string, string> = {
   "vitimismo-narcisista-2": vit2,
   "dizer-nao-1": diz1,
   "dizer-nao-2": diz2,
+  // Additional articles
+  "amizades-toxicas-1": amiz1,
+  "amizades-toxicas-2": amiz2,
+  "culpa-cronica-1": culp1,
+  "culpa-cronica-2": culp2,
+  "comunicacao-narcisista-1": com1,
+  "comunicacao-narcisista-2": com2,
+  "narcisismo-familiar-1": fam1,
+  "narcisismo-familiar-2": fam2,
+  "autossabotagem-1": sab1,
+  "autossabotagem-2": sab2,
 };
 
 export const getBlogImage = (key: string): string => imageMap[key] || "";
