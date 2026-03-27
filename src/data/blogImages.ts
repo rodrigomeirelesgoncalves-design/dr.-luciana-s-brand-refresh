@@ -76,6 +76,18 @@ import vit2 from "@/assets/blog/vitimismo-narcisista-2.jpg";
 import diz1 from "@/assets/blog/dizer-nao-1.jpg";
 import diz2 from "@/assets/blog/dizer-nao-2.jpg";
 
+// Additional articles images
+import amiz1 from "@/assets/blog/amizades-toxicas-1.jpg";
+import amiz2 from "@/assets/blog/amizades-toxicas-2.jpg";
+import culp1 from "@/assets/blog/culpa-cronica-1.jpg";
+import culp2 from "@/assets/blog/culpa-cronica-2.jpg";
+import com1 from "@/assets/blog/comunicacao-narcisista-1.jpg";
+import com2 from "@/assets/blog/comunicacao-narcisista-2.jpg";
+import fam1 from "@/assets/blog/narcisismo-familiar-1.jpg";
+import fam2 from "@/assets/blog/narcisismo-familiar-2.jpg";
+import sab1 from "@/assets/blog/autossabotagem-1.jpg";
+import sab2 from "@/assets/blog/autossabotagem-2.jpg";
+
 const imageMap: Record<string, string> = {
   "dependencia-emocional-1": dep1,
   "dependencia-emocional-2": dep2,
@@ -151,6 +163,17 @@ const imageMap: Record<string, string> = {
   "vitimismo-narcisista-2": vit2,
   "dizer-nao-1": diz1,
   "dizer-nao-2": diz2,
+  // Additional articles
+  "amizades-toxicas-1": amiz1,
+  "amizades-toxicas-2": amiz2,
+  "culpa-cronica-1": culp1,
+  "culpa-cronica-2": culp2,
+  "comunicacao-narcisista-1": com1,
+  "comunicacao-narcisista-2": com2,
+  "narcisismo-familiar-1": fam1,
+  "narcisismo-familiar-2": fam2,
+  "autossabotagem-1": sab1,
+  "autossabotagem-2": sab2,
 };
 
 export const getBlogImage = (key: string): string => imageMap[key] || "";
