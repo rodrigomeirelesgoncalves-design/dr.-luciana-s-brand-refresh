@@ -52,6 +52,30 @@ import ndig2 from "@/assets/blog/narcisismo-digital-2.jpg";
 import recup1 from "@/assets/blog/recuperacao-pos-trauma-1.jpg";
 import recup2 from "@/assets/blog/recuperacao-pos-trauma-2.jpg";
 
+// Extra articles images
+import isol1 from "@/assets/blog/isolamento-social-1.jpg";
+import isol2 from "@/assets/blog/isolamento-social-2.jpg";
+import proj1 from "@/assets/blog/projecao-narcisista-1.jpg";
+import proj2 from "@/assets/blog/projecao-narcisista-2.jpg";
+import div1 from "@/assets/blog/divorcio-narcisista-1.jpg";
+import div2 from "@/assets/blog/divorcio-narcisista-2.jpg";
+import mae1 from "@/assets/blog/mae-narcisista-1.jpg";
+import mae2 from "@/assets/blog/mae-narcisista-2.jpg";
+import masc1 from "@/assets/blog/mascara-narcisista-1.jpg";
+import masc2 from "@/assets/blog/mascara-narcisista-2.jpg";
+import ans1 from "@/assets/blog/ansiedade-abusivo-1.jpg";
+import ans2 from "@/assets/blog/ansiedade-abusivo-2.jpg";
+import msex1 from "@/assets/blog/manipulacao-sexual-1.jpg";
+import msex2 from "@/assets/blog/manipulacao-sexual-2.jpg";
+import emp1 from "@/assets/blog/empoderamento-feminino-1.jpg";
+import emp2 from "@/assets/blog/empoderamento-feminino-2.jpg";
+import rf1 from "@/assets/blog/red-flags-1.jpg";
+import rf2 from "@/assets/blog/red-flags-2.jpg";
+import vit1 from "@/assets/blog/vitimismo-narcisista-1.jpg";
+import vit2 from "@/assets/blog/vitimismo-narcisista-2.jpg";
+import diz1 from "@/assets/blog/dizer-nao-1.jpg";
+import diz2 from "@/assets/blog/dizer-nao-2.jpg";
+
 const imageMap: Record<string, string> = {
   "dependencia-emocional-1": dep1,
   "dependencia-emocional-2": dep2,
@@ -104,6 +128,29 @@ const imageMap: Record<string, string> = {
   "narcisismo-digital-2": ndig2,
   "recuperacao-pos-trauma-1": recup1,
   "recuperacao-pos-trauma-2": recup2,
+  // Extra articles
+  "isolamento-social-1": isol1,
+  "isolamento-social-2": isol2,
+  "projecao-narcisista-1": proj1,
+  "projecao-narcisista-2": proj2,
+  "divorcio-narcisista-1": div1,
+  "divorcio-narcisista-2": div2,
+  "mae-narcisista-1": mae1,
+  "mae-narcisista-2": mae2,
+  "mascara-narcisista-1": masc1,
+  "mascara-narcisista-2": masc2,
+  "ansiedade-abusivo-1": ans1,
+  "ansiedade-abusivo-2": ans2,
+  "manipulacao-sexual-1": msex1,
+  "manipulacao-sexual-2": msex2,
+  "empoderamento-feminino-1": emp1,
+  "empoderamento-feminino-2": emp2,
+  "red-flags-1": rf1,
+  "red-flags-2": rf2,
+  "vitimismo-narcisista-1": vit1,
+  "vitimismo-narcisista-2": vit2,
+  "dizer-nao-1": diz1,
+  "dizer-nao-2": diz2,
 };
 
 export const getBlogImage = (key: string): string => imageMap[key] || "";
